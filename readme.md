@@ -1,9 +1,9 @@
-Coding test for Narcity Media
-Developed in React
-Store managed by Redux
-Async actions managed using Thunk
-Animations coded using React Motion
-API endpoint "https://www.narcity.com/lmlsug.json"
+Coding test for Narcity Media <br />
+Developed in React <br />
+Store managed by Redux <br />
+Async actions managed using Thunk <br />
+Animations coded using React Motion <br />
+API endpoint "https://www.narcity.com/lmlsug.json" <br />
 
 - download/clone the repository
 - run "npm install" to install the dependencies
