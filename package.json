@@ -2,6 +2,11 @@
   "name": "narcity-media",
   "version": "1.0.0",
   "description": "Coding test for Narcity Media",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaellovisa/narcitymediacodingtest.git"
+  },
+  "license": "UNLICENSED",
   "scripts": {
     "start": "webpack-dev-server --mode development --inline --hot --open",
     "build": "webpack"
@@ -11,7 +16,6 @@
     "babel-polyfill": "^6.26.0",
     "jquery": "^3.3.1",
     "mini-css-extract-plugin": "^0.4.2",
-    "q": "^1.5.1",
     "react": "^16.4.2",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.4.2",
@@ -25,7 +29,7 @@
   "devDependencies": {
     "@types/react": "^16.4.13",
     "@types/react-dom": "^16.0.7",
-    "awesome-typescript-loader": "^5.2.0",
+    "awesome-typescript-loader": "^5.2.1",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "css-loader": "^1.0.0",

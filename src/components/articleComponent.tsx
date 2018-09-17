@@ -96,6 +96,8 @@ export class ArticleComponent extends React.Component<Article, State> {
 				return "THINGS TO DO IN PHILADELPHIA";
 			case "5903ed4c969426107e75a017":
 				return "NEWS";
+			case "598ca20599cd0f5c8d487807":
+				return "DATING";
 			default:
 				return "";
 		}

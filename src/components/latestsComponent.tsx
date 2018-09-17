@@ -1,7 +1,7 @@
 import * as React from "react";
 import { ArticleComponent } from './articleComponent';
 import { Grid, Row } from 'react-bootstrap';
-import { State, Article } from '../models';
+import { Article } from '../models';
 
 interface Props {
 	articles: Article[],
@@ -23,18 +23,18 @@ export class LatestsComponent extends React.Component<Props, {}> {
     			<Row>
 			    	{
 			    		this.props.articles.map(article =>
-					    	    <ArticleComponent 	key={article._id}
-					    	    					_id={article._id}
-													title={article.title}
-													subtitle={article.subtitle}
-													shares={article.shares}
-													media={article.media}
-													topic={article.topic}
-													name={article.name}
-													score={article.score}
-													url={article.url}
-													language={article.language}
-								/>
+					    	<ArticleComponent 	key={article._id}
+					    	    				_id={article._id}
+												title={article.title}
+												subtitle={article.subtitle}
+												shares={article.shares}
+												media={article.media}
+												topic={article.topic}
+												name={article.name}
+												score={article.score}
+												url={article.url}
+												language={article.language}
+							/>
 			    		)
 			    	}
     			</Row>

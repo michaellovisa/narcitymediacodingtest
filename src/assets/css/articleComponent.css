@@ -24,9 +24,8 @@
 
 .secondary-content {
 	position: absolute;
-	bottom: 30%;
+	bottom: 25%;
 	z-index: -1;
-
 }
 
 .article-image {
@@ -59,5 +58,8 @@
 @media (max-width: 767px){
 	.article-container {
 		height:450px;
+	}
+	.secondary-content {
+	bottom: 30%;
 	}
 }

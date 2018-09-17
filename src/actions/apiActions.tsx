@@ -1,6 +1,5 @@
 import { Article } from '../models';
 
-
 export const fetchDataAction = (url: string) => dispatch => {
 	dispatch(requestData(url))
 	return fetch(url)
